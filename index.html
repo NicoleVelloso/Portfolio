@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Velloso | Portfólio para o Lab da DIO</title>
+    <meta name="description"
+        content="Portfólio da estudante e desenvolvedora front-end Nicole Velloso para compartilhar projetos e habilidades desenvolvidas.">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__brand">
+            <a href="#home">
+                <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+            </a>
+        </div>
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+    </header>
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <div class="main__content1">
+            <h1><b>Nicole Velloso</b></h1>
+            <h2>Desenvolvedora Front-end</h2>
+            <p>Rio de Janeiro-RJ, Estudante e Desenvolvedora em formação.</p>
+        </div>
+    </main>
+
+    <section class="technologies">
+        <h2>Conhecimento básico nas principais tecnologias do mercado</h2>
+        <ul class="technologies__list">
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/JavaScript.png" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/react.png" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+                <img class="technologies__logo" src="assets/images/technologies/java.png" alt="Logo Java">
+            </li>
+        </ul>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/projects/detona.png" alt="Capa Detona Ralph">
+                <div class="card__body">
+                    <h3 class="card__title">Detona Ralph</h3>
+                    <p class="card__description">Mini-Game Detona Ralph</p>
+                    <ul class="card__list">
+                        <li class="card__item">Movimentação do inimigo em um intervalo aleatório;</li>
+                        <li class="card__item">Implementação de áudio nos determinados eventos;</li>
+                        <li class="card__item">Implementação de uma modal que contabiliza o Score e mostra na tela.</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo Html">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/JavaScript.png"
+                                alt="Logo JavaScript">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo Css">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="projects__card card--reverse">
+                <img class="card__cover" src="assets/images/projects/memory.png" alt="Capa Archstil">
+                <div class="card__body">
+                    <h3 class="card__title">Jogo Da Memória</h3>
+                    <p class="card__description">Jogo da Memória dos jogadores do Vasco da Gama</p>
+                    <ul class="card__list">
+                        <li class="card__item">Um jogo interativo e personalizado com as estrelas do Vasco;</li>
+                        <li class="card__item">Gerenciamento Eficiente de Sessões de Jogo;</li>
+                        <li class="card__item">Segurança e Performance Otimizadas.</li>
+                    </ul>
+                    <ul class="technologies__list">
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/JavaScript.png"
+                                alt="Logo JavaScript">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo Html">
+                        </li>
+                        <li class="technologies__item">
+                            <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo Css">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://github.com/NicoleVelloso">
+                <button class="btn btn--primary">
+                    <span>Ver Todos os Projetos</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="assets/images/avatar.jpeg" alt="">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p>Olá, meu nome é Nicole Velloso.Sou formada em Técnico de Informática e atualmente cursando Análise e
+                    Desenvolvimento de Sistemas. Trabalho como estagiária em uma empresa voltada para tecnologia, onde
+                    tenho a oportunidade de aprender e crescer na área. Além disso, estou buscando me especialar em
+                    Desenvolvimento Frontend com ênfase em mobile, pois adoro desenvolver interfaces modernas e
+                    funcionais
+                </p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Básico</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/nicole-velloso-509b85205/" target="_blank">
+                        <button class="btn btn--primary">
+                            <span>Conecte-se Comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="">
+                        <button class="btn">
+                            <span>Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about__content2">
+            <div class="col1">
+                <div class="row1">
+                    <h3>Formação</h3>
+                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                    <span>Out 2024 - Atualmente</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>SENAC</span>
+                    </div>
+                    <h4>Técnico em Informática</h4>
+                    <span>Abr 2021 - Dez 2023</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>SENAC</span>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h3>Experiências</h3>
+                    <h4>Jovem Aprendiz</h4>
+                    <span>Radix Engenharia e Desenvolvimento de Software </span>
+                    <span>Set 2023 - Dez 2024</span>
+                    <span>Atuei como jovem aprendiz no projeto de sustentação do cliente Grupo Technos, ajudando na
+                        correção de bugs e no desenvolvimento de melhorias para os aplicativos dos Smartwatches das
+                        marcas do cliente. Meu trabalho envolvia dar suporte na resolução de problemas e contribuir com
+                        melhorias nos aplicativos.
+                    </span>
+                    <h4>Estagiária</h4>
+                    <span>Radix Engenharia e Desenvolvimento de Software </span>
+                    <span>Dez 2024 - Atualmente</span>
+                    <span>Atuo como estagiária no projeto de sustentação do cliente Grupo Technos, onde sou responsável
+                        pela correção de bugs e pelo desenvolvimento de melhorias nos aplicativos para Smartwatches das
+                        marcas do cliente. Meu trabalho envolve identificar e solucionar problemas técnicos, além de
+                        implementar atualizações que garantam a melhor experiência possível para os usuários. Também
+                        apoio na manutenção contínua dos aplicativos, colaborando com a equipe para aprimorar a
+                        funcionalidade e o desempenho dos dispositivos.
+                    </span>
+                </div>
+            </div>
+            <div class="col2">
+                <h3>Cursos</h3>
+                <div id="accordion">
+                    <div class="accordion__item active">
+                        <button class="accordion__header start">
+                            <span>Lógica de Programação em Java</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                SENAI
+                            </p>
+                            <p>
+                                Jul 2023 - Ago 2023
+                            </p>
+                            <p>
+                                O curso abordou conceitos fundamentais de lógica de programação, como variáveis,
+                                operadores, estruturas condicionais e laços de repetição. Desenvolvi habilidades na
+                                criação de algoritmos eficientes e na resolução de problemas computacionais, com foco em
+                                boas práticas. As atividades práticas incluíram programas como calculadoras, validação
+                                de entradas e manipulação de arrays.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Tecnologia da Informação e Comunicação</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                SENAI
+                            </p>
+                            <p>
+                                Jul 2023 - Ago 2023
+                            </p>
+                            <p>
+                            <p>
+                                Este curso apresentou os fundamentos das Tecnologias da Informação e Comunicação,
+                                abordando conceitos como redes de computadores, sistemas operacionais, hardware,
+                                software e segurança da informação. Aprendi sobre o papel da tecnologia na comunicação
+                                digital, incluindo protocolos de rede, armazenamento de dados e conectividade.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Programação em Java</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                SENAC
+                            </p>
+                            <p>
+                                Out 2024 - Nov 2024
+                            </p>
+                            <p>
+                            <p>
+                                O curso abordou conceitos essenciais de Programação Orientada a Objetos, como classes,
+                                objetos, atributos, métodos, encapsulamento, herança e polimorfismo. Por meio de
+                                exercícios práticos, aprendi a criar aplicações estruturadas, aplicar modularidade e
+                                reutilização de código, além de trabalhar com construtores e interfaces para desenvolver
+                                programas escaláveis e organizados.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Bootcamp Front-end do Zero</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                DIO- RI HAPPY
+                            </p>
+                            <p>
+                                Set 2024 - Dez 2024
+                            </p>
+                            <p>
+                            <p>
+                                Este bootcamp foi uma jornada intensiva onde aprendi os fundamentos de JavaScript, HTML,
+                                CSS e Programação Orientada a Objetos (POO). Ao longo do curso, tive a oportunidade de
+                                aplicar esses conhecimentos em diversos projetos práticos, que me permitiram consolidar
+                                o aprendizado e fortalecer meu portfólio.
+                                Através de desafios e projetos, desenvolvi habilidades essenciais para a criação de
+                                páginas web interativas e dinâmicas, além de aplicar conceitos de POO para criar
+                                soluções de software bem estruturadas e escaláveis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>HTML E CSS</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                SENAC
+                            </p>
+                            <p>
+                                Nov 2024 - Dez 2024
+                            </p>
+                            <p>
+                            <p>
+                                Este curso abordou os fundamentos do desenvolvimento web, com foco em HTML e CSS.
+                                Aprendi a estruturar páginas utilizando HTML, criando elementos como cabeçalhos,
+                                parágrafos, listas, links e formulários. No CSS, explorei como estilizar páginas,
+                                trabalhar com layouts responsivos, aplicar cores, fontes e margens, além de usar
+                                técnicas avançadas como Flexbox e Grid.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>JavaScript para Web</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                SENAC
+                            </p>
+                            <p>
+                                Dez 2024 - Jan 2025
+                            </p>
+                            <p>
+                            <p>
+                                Este curso focou no uso de JavaScript para o desenvolvimento web, ensinando manipulação
+                                do DOM, criação de interações dinâmicas e validação de formulários. Também explorei a
+                                integração com HTML e CSS para criar páginas responsivas. Além disso, aprendi boas
+                                práticas de organização de código e conceitos fundamentais como funções, objetos e
+                                arrays no contexto web.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header end">
+                            <span>Bootcamp Lógica de Programação em JavaScript</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body end">
+                            <p>
+                                DIO- GFT START
+                            </p>
+                            <p>
+                                Ago 2024 - Out 2024
+                            </p>
+                            <p>
+                            <p>
+                                Neste bootcamp, aprofundei meus conhecimentos em lógica de programação utilizando
+                                JavaScript. Aprendi a manipular o DOM, trabalhar com estruturas de dados, e aplicar
+                                conceitos de programação funcional e orientada a objetos. Realizei diversos projetos
+                                práticos que me ajudaram a consolidar os conceitos aprendidos, além de melhorar minhas
+                                habilidades na criação de soluções dinâmicas e interativas para a web. O bootcamp também
+                                enfatizou boas práticas de desenvolvimento e a importância de escrever código limpo e
+                                eficiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <section id="contato" class="contact">
+        <h2>Contate-me</h2>
+        <p>Estou disponível para novas conexões. Contate-me via
+            e-mail e conecte-se comigo através das minhas redes sociais.
+        </p>
+        <ul class="menu menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/NicoleVelloso" target="_blank">
+                    <i class="menu__icon bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/nicole-velloso-509b85205/" target="_blank">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+        <a href="mailto:nicole.velloso28@gmail.com">
+            <button class="btn btn--primary">
+                <span class="email">nicole.velloso28@gmail.com</span>
+            </button>
+        </a>
+    </section>
+
+    <footer>
+        <p>
+            © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da
+            <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por
+            <a href="https://github.com/NicoleVelloso" target="_blank">Nicole Velloso</a>.
+        </p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
